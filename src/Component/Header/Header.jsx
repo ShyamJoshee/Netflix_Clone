@@ -2,13 +2,13 @@ import React from 'react'
 import logo from "../../netflixlogo.png"
 import { Link } from 'react-router-dom'
 import { ImSearch} from "react-icons/im"
-import Home from "../Home/Home.jsx"
+// import Home from "../Home/Home.jsx"
 
 const Header = () => {
   return (
     <nav className="header">
       <img src={logo} alt="logo" />
-
+      {/* Navbar */}
 
       <div>
         <Link to="/tvshows">TV Shows</Link>
